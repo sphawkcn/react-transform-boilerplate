@@ -4,6 +4,7 @@ import NavBar from './shared/NavBar';
 import AppBar from 'material-ui/lib/app-bar';
 import AppLeftNav from './shared/AppLeftNav';
 
+
 class App extends Component {
   constructor(props, context) {
     super(props, context);
