@@ -30,6 +30,14 @@ module.exports = {
     {
       test: /\.(jpe?g|png)$/,
       loader: 'file-loader'
+    },
+    {
+      test: /\.scss$/,
+      loaders: ['style','css','autoprefixer','sass']
+    },
+    {
+      test: /\.(jpe?g|png)$/,
+      loaders: ['file-loader']
     }]
   }
 };
